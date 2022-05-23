@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">androidProject</string>
+    <string name="about_text">this app is for people who are new to cars and are curious about what some of the most poppular models are and what type of car that model is. </string>
 </resources>
