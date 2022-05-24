@@ -1,5 +1,6 @@
 package com.example.androidproject;
 
+import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
@@ -19,18 +20,23 @@ private ArrayList<Car> cars;
 
     @NonNull
     @Override
-    public CarViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-        return null;
+    public CarViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType)
+    {
+View view= LayoutInflater.from(parent.getContext()).inflate(R.layout.list_item, parent, false);
+return new CarViewHolder(view);
     }
 
     @Override
-    public void onBindViewHolder(@NonNull RecyclerView.ViewHolder holder, int position) {
-
+    public void onBindViewHolder(@NonNull CarViewHolder holder, int position)
+    {
+        holder.name.setText(cars.get(position).getName());
+holder.category.setText(cars.get(position).getCategory());
+holder.company.setText(cars.get(position).getCompany());
     }
 
     @Override
     public int getItemCount() {
-        return 0;
+        return cars.size();
     }
 
     public class CarViewHolder extends RecyclerView.ViewHolder

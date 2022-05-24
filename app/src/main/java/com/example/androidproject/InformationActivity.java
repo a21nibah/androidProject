@@ -3,6 +3,7 @@ package com.example.androidproject;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+@SuppressWarnings("FieldCanBeLocal")
 
 public class InformationActivity extends AppCompatActivity {
 
