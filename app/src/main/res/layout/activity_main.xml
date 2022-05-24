@@ -20,6 +20,6 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintEnd_toEndOf="@id/launch_about_activity_btn"
         android:id="@+id/information_btn"
-        android:text="retreav cars"
+        android:text="retrieve cars"
         />
 </androidx.constraintlayout.widget.ConstraintLayout>

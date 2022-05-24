@@ -12,6 +12,6 @@
     app:layout_constraintEnd_toEndOf="parent"
     app:layout_constraintTop_toTopOf="parent"
     app:layout_constraintBottom_toBottomOf="parent"
-    android:id="rec_view"
+    android:id="@+id/rec_view"
     />
 </androidx.constraintlayout.widget.ConstraintLayout>
