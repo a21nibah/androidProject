@@ -8,10 +8,11 @@
 <Button
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    app:layout_constraintBottom_toBottomOf="parent"
-    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toEndOf="@id/information_btn"
     android:id="@+id/launch_about_activity_btn"
     android:text="about the app"
+    app:layout_constraintTop_toTopOf="parent"
+    android:layout_marginLeft="16dp"
     />
     <Button
         android:layout_width="wrap_content"
