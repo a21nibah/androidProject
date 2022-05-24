@@ -1,4 +1,4 @@
 <resources>
     <string name="app_name">androidProject</string>
-    <string name="about_text">this app is for people who are new to cars and are curious about what some of the most poppular models are and what type of car that model is. </string>
+    <string name="about_text">this app is for people who are new to cars and are curious about what some of the most poppular models are. This app provides an overview of some of the most poppular models right now, it does not go in to detail about each model. The goal is only to give an overview for someone who is intrested in buying a new car and is a beginner.</string>
 </resources>
