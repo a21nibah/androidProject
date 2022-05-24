@@ -9,20 +9,29 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
 private Button aboutBtn;
+private Button infoBtn;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         aboutBtn=findViewById(R.id.launch_about_activity_btn);
-        Intent intent=new Intent(this, AboutActivity.class);
+        infoBtn=findViewById(R.id.information_btn);
+        Intent aboutIntent=new Intent(this, AboutActivity.class);
+        Intent infoIntent=new Intent(this, InformationActivity.class);
         aboutBtn.setOnClickListener(new View.OnClickListener()
         {
             @Override
             public void onClick(View view)
             {
-            startActivity(intent);
+            startActivity(aboutIntent);
             }
         });
-        
+        infoBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view)
+            {
+            startActivity(infoIntent);
+            }
+        });
     }
 }
