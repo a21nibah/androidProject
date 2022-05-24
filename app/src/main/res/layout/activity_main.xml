@@ -13,4 +13,12 @@
     android:id="@+id/launch_about_activity_btn"
     android:text="about the app"
     />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="@id/launch_about_activity_btn"
+        android:id="@+id/information_btn"
+        android:text="retreav cars"
+        />
 </androidx.constraintlayout.widget.ConstraintLayout>
