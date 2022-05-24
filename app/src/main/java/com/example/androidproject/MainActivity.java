@@ -23,7 +23,7 @@ private Button infoBtn;
             @Override
             public void onClick(View view)
             {
-            startActivity(aboutIntent);
+               startActivity(aboutIntent);
             }
         });
         infoBtn.setOnClickListener(new View.OnClickListener() {
